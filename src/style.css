@@ -88,3 +88,8 @@
   background-color: #0056b3;
 }
 
+@media screen and (max-width: 768px){
+  .profile-box{
+    width: 90%;
+  }
+}
