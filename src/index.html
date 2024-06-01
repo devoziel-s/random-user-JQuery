@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <title>Random User - JQuery</title>
 </head>
 <body>
   <div class="profile-box">
@@ -29,5 +31,18 @@
     <button>Gerar</button>
 </div>
 
+  <script>
+    $("button").on("click", () => {
+      fetch("https://randomuser.me/api/?nat=BR")
+      .then(response => response.json())
+      .then(data => {
+        const user = data.results[0]
+        $("img").attr("src", `${user.picture.large}`)
+        $("#person_name").val(`${user.name.first} ${user.name.last}`)
+        $("#email").val(user.email)
+        $("#location").val(`${user.location.state}`)
+      })
+    })
+  </script>
 </body>
 </html>
