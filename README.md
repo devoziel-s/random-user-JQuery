@@ -24,13 +24,13 @@ git clone https://github.com/devoziel-s/random-user-JQuery.git
 **2. Acesse o diretório do projeto:** Navegue para o diretório recém-clonado utilizando o seguinte comando:
 
 ```bash
-cd random-user-JQuery
+cd random-user-JQuery/src
 ```
 
 **3. Abra o arquivo HTML no navegador:** Abra o arquivo index.html em qualquer navegador da sua preferência. Você pode fazer isso clicando duas vezes no arquivo ou usando um comando de terminal, como:
 
 ```bash
-open index.html
+start index.html
 ```
 **4. Interaja com o projeto:** Após abrir o arquivo HTML no navegador, você verá uma interface simples com um botão **"Gerar"**. Clique neste botão para gerar informações aleatórias de um usuário.
 
