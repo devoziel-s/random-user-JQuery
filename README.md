@@ -9,8 +9,9 @@
 ![Static Badge](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=white&logoSize=12px)
 ![Static Badge](https://img.shields.io/badge/CSS-blue?style=for-the-badge&logo=css3&logoColor=white&logoSize=12px)
 ![Static Badge](https://img.shields.io/badge/JQuery-blue?style=for-the-badge&logo=jquery&logoColor=white&logoSize=12px)
-![Static Badge](https://img.shields.io/badge/Random--User--API-green?style=for-the-badge&logoColor=white&logoSize=12px&link=https%3A%2F%2Frandomuser.me%2F)
-
+<a href="https://randomuser.me/">
+  ![Static Badge](https://img.shields.io/badge/Random--User--API-green?style=for-the-badge&logoColor=white&logoSize=12px)
+</a>
 
 
 ## Passo a Passo para Execução do Projeto
